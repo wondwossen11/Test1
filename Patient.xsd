@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/Patient"
+	xmlns:tns="http://www.example.org/Patient"
+	elementFormDefault="qualified">
+	
+	<element name="patient" type="tns:patient" />
+	<complexType name="patient">
+		<sequence>
+          <element></element>
+
+		</sequence>
+	</complexType>
+</schema>
